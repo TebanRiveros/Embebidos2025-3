@@ -1,4 +1,4 @@
-# Proyecto de Tesis: Robot Wall-E para Recolección Autónoma de Basura
+# Proyecto de Sistemas Embebidos: Robot Wall-E para Recolección Autónoma de Basura
 
 ## Resumen
 Este proyecto consiste en el diseño, desarrollo y prueba de un robot autónomo inspirado en Wall-E, capaz de recolectar basura utilizando una cámara ESP32-CAM, un electroimán, y sensores de proximidad. El robot incorpora comunicación WiFi mediante Raspberry Pi Pico 2 W para control y monitoreo remoto, y está diseñado para acoplarse mecánicamente con otro robot similar, permitiendo trabajo colaborativo.
@@ -51,11 +51,24 @@ La gestión de residuos es un desafío ambiental crucial. Este proyecto propone 
 ## Diseño y Desarrollo
 
 ### Componentes Principales
-- **ESP32-CAM:** Cámara integrada para detección visual de basura con capacidades de procesamiento de imágenes.
-- **Raspberry Pi Pico 2 W:** Microcontrolador con WiFi integrado para control y comunicación entre robots.
-- **Electroimán:** Para atracción y recolección de objetos metálicos.
-- **Sensor de Proximidad:** Evitar colisiones y mejorar navegación.
-- **Sistema Mecánico de Acoplamiento:** Permite conexión física con otro robot.
+
+| Componente                 | Cantidad | Costos |
+|-----------------------------|----------|--------|
+| ESP32-CAM                  | 1        | $47,600 |
+| Raspberry Pi Pico 2 W      | 1        | $38,080|
+| Electroimán                 | 1        |$21,740 |
+| Sensor de Proximidad        | 1        |$8,200  |
+| Servomotor                  | 4        |$48,000 |
+| MeARM                       | 1        |$32,000 |
+| Puente H                    | 1        |$11,300 |
+| Motor DC y Chasis           | 1        |$36,900 |
+| Batería 9V                  | 3        |$24,000 |
+| Batería 1.5V                | 2        |$5,000  |
+| Giroscopio y Acelerómetro   | 1        |$19,900 |
+| Control Remoto IR           | 1        |$9,450  |
+
+
+
 
 ### Diagrama del Sistema
 ![Diagrama del sistema](ruta/a/tu/imagen.png)
@@ -80,9 +93,6 @@ El desarrollo del robot Wall-E autónomo con ESP32-CAM y Raspberry Pi Pico 2 W d
 - Incorporación de fuentes de energía renovable para mayor autonomía.
 
 ## Referencias
-- [Referencia 1: Libro/Artículo]
-- [Referencia 2: Página Web]
-- [Referencia 3: Manual Técnico]
 
 ## Anexos
 - Código fuente relevante
@@ -92,9 +102,11 @@ El desarrollo del robot Wall-E autónomo con ESP32-CAM y Raspberry Pi Pico 2 W d
 
 ---
 
-**Autor:** Tu Nombre  
+**Autor(es):** 
+Julián David Gamboa Baquero
+Esteban Riveros
 **Fecha:** Agosto 2025  
-**Institución:** Nombre de tu universidad o institución
+**Institución:**Universidad Distrital Francisco José de Caldas
 
 ---
 
